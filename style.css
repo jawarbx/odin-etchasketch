@@ -9,16 +9,24 @@ body {
 
 
 .drawing-container {
-	border: 10px ;
+	border: 1px ;
 	border-color: black;
-	height: 800px;
-	width: 800px;
+	height: 700px;
+	width: 700px;
 	display: grid;
 }
 
 #drawing-cell {
-	border: 2px solid;
+	border: 1px solid;
 	border-color: black;
 	background: white;
 
+}
+
+#dim-button,
+#reset-button,
+.color,
+#dimension {
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
 }

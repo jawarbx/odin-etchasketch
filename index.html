@@ -11,14 +11,25 @@
 	</head>
 
 	<body>
+		<div class='options'>
+			<input 
+								type='number' 
+								id='dimension' 
+								name='dimension'
+								value='8';
+								min='1' 
+								max='100'>
+					<button id='dim-button'>Change Dimension</button>
+			<div class='color'>
+				Change Color:
+					<input
+							type='color'
+							id='single-color'
+							name='single-color'>
+
+			</div>
+		</div>
+				<div class=drawing-container></div>
 		<button id="reset-button">Reset</button>
-		<input 
-					type='number' 
-					id='dimension' 
-					name='dimension' 
-					min='1' 
-					max='100'>
-		<input type='Submit' value='Change dimension'>
-		<div class=drawing-container></div>
 	</body>
 </html>
